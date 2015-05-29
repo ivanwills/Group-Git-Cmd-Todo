@@ -70,7 +70,6 @@ Group::Git::Cmd::Todo - Group-Git tools to show combined markdown TODOs
 
 This documentation refers to Group::Git::Cmd::Todo version 0.0.1
 
-
 =head1 SYNOPSIS
 
    use Group::Git::Cmd::Todo;
@@ -85,6 +84,14 @@ This documentation refers to Group::Git::Cmd::Todo version 0.0.1
 Just the holder module
 
 =head1 SUBROUTINES/METHODS
+
+=head2 C<todo ($name)>
+
+Reads the TODO.md file from the repository C<$name>.
+
+=head2 C<todo_end ()>
+
+Returns the concatenated TODO.md contents for presentation.
 
 =head1 DIAGNOSTICS
 
