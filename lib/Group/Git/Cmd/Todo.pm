@@ -81,7 +81,8 @@ This documentation refers to Group::Git::Cmd::Todo version 0.0.1
 
 =head1 DESCRIPTION
 
-Just the holder module
+Adds the sub-command C<todo> to C<group-git>, it concatenates all the
+C<TODO.md> files so you can view a summary of things to do.
 
 =head1 SUBROUTINES/METHODS
 
