@@ -6,7 +6,8 @@
 =head1 Group::Git::Cmd::Todo
 
 Adds the sub-command C<todo> to C<group-git>, it concatenates all the
-C<TODO.md> files so you can view a summary of things to do.
+C<TODO.md> files so you can view a summary of tasks to to accross all
+repositories.
 
 =head1 INSTALLATION
 
